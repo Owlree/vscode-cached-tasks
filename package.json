@@ -5,6 +5,7 @@
     "version": "0.0.1",
     "publisher": "Owlree",
     "icon": "CachedTasksIcon.png",
+    "repository": "https://github.com/Owlree/vscode-cached-tasks",
     "engines": {
         "vscode": "^1.29.0"
     },
