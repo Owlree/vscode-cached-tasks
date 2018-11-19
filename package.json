@@ -2,7 +2,7 @@
     "name": "cached-tasks",
     "displayName": "Cached Tasks",
     "description": "Scan and cache tasks at startup for faster access",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Owlree",
     "icon": "CachedTasksIcon.png",
     "repository": "https://github.com/Owlree/vscode-cached-tasks",
