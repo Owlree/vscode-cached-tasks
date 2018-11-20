@@ -1,12 +1,12 @@
 # vscode-cached-tasks
 
-This extension runs the Visual Studio Code task scanning process at startup and caches all the tasks it find for quicker access.
+This extension works the same as the default *Tasks: Run Task* command from Visual Studio Code, the only difference being that it caches tasks instead of rescanning everytime.
 
 ## How To Use
 
-After installing the extension, reload the window to activate. You should see a notification that *Scanning tasks* is running. When it's done (notification *Scanning tasks done*) you should be able to run a task by using the command *Cached Tasks: Run Task*. You can also rescan the tasks using *Cached Tasks: Scan Tasks*
+After installing the extension, reload the window to activate. Use *Cached Tasks: Run Task* as you would use *Tasks: Run Task*. You can use *Cached Tasks: Scan Tasks* to rescan the tasks.
 
-You can also add a keyboard shortcut to *Run Task* for quicker access.
+Set a keyboard shortcut for quicker access.
 
 ## Why Use This Extension?
 
