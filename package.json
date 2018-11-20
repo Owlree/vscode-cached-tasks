@@ -2,7 +2,7 @@
     "name": "cached-tasks",
     "displayName": "Cached Tasks",
     "description": "Scan and cache tasks at startup for faster access",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "Owlree",
     "icon": "CachedTasksIcon.png",
     "repository": "https://github.com/Owlree/vscode-cached-tasks",
@@ -23,7 +23,18 @@
         }, {
             "command": "extension.ScanTasks",
             "title": "Cached Tasks: Scan Tasks"
-        }]
+        }],
+        "configuration": {
+            "type": "object",
+            "title": "Cached Tasks configuration",
+            "properties": {
+                "cachedTasks.scanAtStartup": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Wether the extension should scan tasks at startup"
+                }
+            }
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
